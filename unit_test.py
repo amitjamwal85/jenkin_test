@@ -19,7 +19,7 @@ class TestAddNumbers(unittest.TestCase):
 
     # Test case: test addition of a positive and a negative number
     def test_add_positive_and_negative_numbers(self):
-        result = add_numbers(8, -1)
+        result = add_numbers(8, -4)
         self.assertEqual(result, 4)
 
 if __name__ == '__main__':
